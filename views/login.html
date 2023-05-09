@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+
+  <header class="main-header">
+    <div class="main-header-top-bar">
+      <img class="logo-home" src="/images/logo-mercado-liebre.svg" alt="Logo" />
+      <div class="searchbar">
+        <input type="text" placeholder="Buscar productos, marcas..." />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <h2 class="compra-cuotas">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        Comprá en cuotas y sin tarjeta de crédito
+      </h2>
+    </div>
+
+    <a href="" class="burguer-menu">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+
+    <nav class="main-header-bottom-bar">
+      <ul class="navbar-left">
+        <li><a href="">Ofertas</a></li>
+        <li><a href="">Tiendas Oficiales</a></li>
+        <li><a href="">Vender</a></li>
+        <li><a href="">Ayuda</a></li>
+      </ul>
+
+      <ul class="navbar-right">
+        <li>
+          <a href="">Creá tu cuenta </a><i class="fa-solid fa-id-card"></i>
+        </li>
+        <li>
+          <a href="">Ingresá </a><i class="fa-solid fa-right-to-bracket"></i>
+        </li>
+        <li>
+          <a href="">Mis compras </a><i class="fa-solid fa-basket-shopping"></i>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <body class="body-login">
+    <form class="form-login">
+      <div class="input-login">
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Nombre de usuario"
+          required
+        />
+      </div>
+
+      <div class="input-login">
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Contraseña"
+          required
+        />
+      </div>
+
+      <input class="iniciar" type="submit" value="Iniciar sesión" />
+    </form>
+  </body>
+</html>
